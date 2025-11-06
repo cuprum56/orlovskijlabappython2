@@ -1,0 +1,114 @@
+[2025-11-07 01:26:06 cd shell]
+[2025-11-07 01:28:10 ls ]
+[2025-11-07 01:28:10] ERROR: expected str, bytes or os.PathLike object, not NoneType
+[2025-11-07 01:29:45 ls ]
+[2025-11-07 01:29:51 ls -l]
+[2025-11-07 01:30:12 ls ]
+[2025-11-07 01:30:17 ls -r ]
+[2025-11-07 01:30:17] ERROR: No such file or directory
+[2025-11-07 01:30:21 ls -l]
+[2025-11-07 01:30:38 cd shell]
+[2025-11-07 01:31:47 cd boba]
+[2025-11-07 01:31:47] ERROR: No such directory
+[2025-11-07 01:32:19 cat shel.log]
+[2025-11-07 01:32:19] ERROR: 'module' object is not callable
+[2025-11-07 01:33:59 cat shel.log]
+[2025-11-07 01:33:59] ERROR: 'module' object is not callable
+[2025-11-07 01:34:15 cat shel.log]
+[2025-11-07 01:35:04 cp main.py boba]
+[2025-11-07 01:39:24 cd boba]
+[2025-11-07 01:39:45 cp src tar -r]
+[2025-11-07 01:39:45] ERROR: [WinError 183] Невозможно создать файл, так как он уже существует: 'C:\\prog\\mai\\labs\\python\\shell\\boba\\tar'
+[2025-11-07 01:40:10 cp src tar -r]
+[2025-11-07 01:40:22 ls ]
+[2025-11-07 01:40:45 mv main.py src]
+[2025-11-07 01:41:00 mv tar src]
+[2025-11-07 01:41:25 cd src]
+[2025-11-07 01:41:38 rm bla.log]
+[2025-11-07 01:41:41 cd ..]
+[2025-11-07 01:41:49 cd src]
+[2025-11-07 01:42:03 rm tar -r]
+[2025-11-07 02:14:30 ls ]
+[2025-11-07 02:14:30 ls -l]
+[2025-11-07 02:14:30 ls C:\Users\OC\AppData\Local\Temp\tmpg8tica1f ]
+[2025-11-07 02:14:30 ls /nonexistent ]
+[2025-11-07 02:14:30] ERROR: No such file or directory
+[2025-11-07 02:14:30 cd C:\Users\OC\AppData\Local\Temp\tmp6ahcu_cl]
+[2025-11-07 02:14:31 cd test_dir]
+[2025-11-07 02:14:31 cd ..]
+[2025-11-07 02:14:31 cd nonexistent_dir]
+[2025-11-07 02:14:31] ERROR: No such directory
+[2025-11-07 02:14:31 cat test1.txt]
+[2025-11-07 02:14:31 cat test_dir]
+[2025-11-07 02:14:31] ERROR: Is a directory
+[2025-11-07 02:14:31 cat nonexistent.txt]
+[2025-11-07 02:14:31] ERROR: No such file
+[2025-11-07 02:14:31 cp test1.txt test1_copy.txt]
+[2025-11-07 02:14:31 cp test_dir test_dir_copy]
+[2025-11-07 02:14:31] ERROR: [Errno 13] Permission denied: 'C:\\Users\\OC\\AppData\\Local\\Temp\\tmptezgj4ky\\test_dir'
+[2025-11-07 02:14:31 cp test_dir test_dir_copy -r]
+[2025-11-07 02:14:31 mv test1.txt test1_moved.txt]
+[2025-11-07 02:14:31 mv test_dir test_dir_moved]
+[2025-11-07 02:14:31 rm test1.txt]
+[2025-11-07 02:14:31 rm test_dir]
+[2025-11-07 02:14:31] ERROR: Cant remove directory without -r flag
+[2025-11-07 02:14:31 rm test_dir -r]
+[2025-11-07 02:14:31 rm / -r]
+[2025-11-07 02:14:31] ERROR: Cant remove parent or root directory
+[2025-11-07 02:16:25 ls ]
+[2025-11-07 02:16:25 ls -l]
+[2025-11-07 02:16:26 ls C:\Users\OC\AppData\Local\Temp\tmpl2cq47vx ]
+[2025-11-07 02:16:26 ls C:\nonexistent ]
+[2025-11-07 02:16:26] ERROR: No such file or directory
+[2025-11-07 02:16:26 cd C:\Users\OC\AppData\Local\Temp\tmplrgpirsu]
+[2025-11-07 02:16:26 cd test_dir]
+[2025-11-07 02:16:26 cd ..]
+[2025-11-07 02:16:26 cd nonexistent_dir]
+[2025-11-07 02:16:26] ERROR: No such directory
+[2025-11-07 02:16:26 cat test1.txt]
+[2025-11-07 02:16:26 cat test_dir]
+[2025-11-07 02:16:26] ERROR: Is a directory
+[2025-11-07 02:16:26 cat nonexistent.txt]
+[2025-11-07 02:16:26] ERROR: No such file
+[2025-11-07 02:16:26 cp test1.txt test1_copy.txt]
+[2025-11-07 02:16:26 cp test_dir test_dir_copy]
+[2025-11-07 02:16:26] ERROR: [Errno 13] Permission denied: 'C:\\Users\\OC\\AppData\\Local\\Temp\\tmpwdfl763_\\test_dir'
+[2025-11-07 02:16:26 cp test_dir test_dir_copy -r]
+[2025-11-07 02:16:26 mv test1.txt test1_moved.txt]
+[2025-11-07 02:16:26 mv test_dir test_dir_moved]
+[2025-11-07 02:16:26 rm test1.txt]
+[2025-11-07 02:16:26 rm test_dir]
+[2025-11-07 02:16:26] ERROR: Cant remove directory without -r flag
+[2025-11-07 02:16:26 rm test_dir -r]
+[2025-11-07 02:16:26 rm C:\ -r]
+[2025-11-07 02:16:26] ERROR: pytest: reading from stdin while output is captured!  Consider using `-s`.
+[2025-11-07 02:18:42 ls ]
+[2025-11-07 02:18:42 ls -l]
+[2025-11-07 02:18:42 ls C:\Users\OC\AppData\Local\Temp\tmpu2sz5zgl ]
+[2025-11-07 02:18:42 ls C:\nonexistent ]
+[2025-11-07 02:18:42] ERROR: No such file or directory
+[2025-11-07 02:18:42 cd C:\Users\OC\AppData\Local\Temp\tmpwyb__87_]
+[2025-11-07 02:18:42 cd C:\prog\mai\labs\python\shell]
+[2025-11-07 02:18:42 cd test_dir]
+[2025-11-07 02:18:42 cd C:\prog\mai\labs\python\shell]
+[2025-11-07 02:18:42 cd ..]
+[2025-11-07 02:18:42 cd C:\prog\mai\labs\python\shell]
+[2025-11-07 02:18:42 cd nonexistent_dir]
+[2025-11-07 02:18:42] ERROR: No such directory
+[2025-11-07 02:18:42 cat test1.txt]
+[2025-11-07 02:18:42 cat test_dir]
+[2025-11-07 02:18:42] ERROR: Is a directory
+[2025-11-07 02:18:42 cat nonexistent.txt]
+[2025-11-07 02:18:42] ERROR: No such file
+[2025-11-07 02:18:42 cp test1.txt test1_copy.txt]
+[2025-11-07 02:18:42 cp test_dir test_dir_copy]
+[2025-11-07 02:18:42] ERROR: [Errno 13] Permission denied: 'C:\\Users\\OC\\AppData\\Local\\Temp\\tmp0gj1kaa3\\test_dir'
+[2025-11-07 02:18:42 cp test_dir test_dir_copy -r]
+[2025-11-07 02:18:42 mv test1.txt test1_moved.txt]
+[2025-11-07 02:18:42 mv test_dir test_dir_moved]
+[2025-11-07 02:18:42 rm test1.txt]
+[2025-11-07 02:18:42 rm test_dir]
+[2025-11-07 02:18:42] ERROR: Cant remove directory without -r flag
+[2025-11-07 02:18:42 rm test_dir -r]
+[2025-11-07 02:18:42 rm C:\ -r]
+[2025-11-07 02:18:42] ERROR: pytest: reading from stdin while output is captured!  Consider using `-s`.

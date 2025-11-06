@@ -1,0 +1,12 @@
+[project]
+name = "python shel"
+version = "0.1.0"
+description = "mini shel for python"
+requires-python = ">=3.12"
+dependencies = [
+    "pytest>=6.2.5",
+    "pytest-python_path>=0.7.4"
+]
+
+[tool.pytest.ini._options]
+python_paths = "src"
